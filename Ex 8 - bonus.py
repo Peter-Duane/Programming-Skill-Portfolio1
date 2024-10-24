@@ -19,7 +19,7 @@ Names = [] # this variable helps separate a name in the set of variables.
 for name in names: # name is the variable, and names is the dictionary, this command separates the specific string from the set of strings.
     if question.title() in name.title(): # if the question connects with a name on the list, it will be recognized by the program, then separate in from within the list.
                                         # .title helps the users type their input in any capitalization which prevents the system from not recognizing the user's input.
-        Names.append(name) # Adds an element by the end of the list in which the 'Names' is the primary variable that puts the 'name' (secondary variable) into that primary variable.
+        Names.append(name) # Adds an element by the end of the string(if found) in which the 'Names' is the primary variable that puts the 'name' (secondary variable) inside that primary variable, which then added to end of the string.
         found = True # this variable is changed from 'False' to 'True' if the question recognizes the name that is typed in by the user.
         
 if found: # As we see here, if the user inputs a name that is recognized by the program, the 'found' variable is changed to 'True'.
