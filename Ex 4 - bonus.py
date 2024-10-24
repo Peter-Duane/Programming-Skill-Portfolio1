@@ -12,7 +12,7 @@ print("Guess the Capital Quiz")
 print("Europe Edition")
 print("**********************")
 
-import random # import helps the programmer to use outdated or new commands from other updates of python if it isn't recognized by the current version.
+import random # import helps the programmer to use libraries of python to expand the tools and functions the programmer can use.
 
 countries={
     'France': 'Paris',
